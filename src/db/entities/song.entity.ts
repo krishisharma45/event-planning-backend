@@ -11,6 +11,6 @@ export class SongEntity {
     @Column()
     public artistName: number;
 
-    @Column({default: Date.now()})
+    @Column()
     public requestDate: string;
 }

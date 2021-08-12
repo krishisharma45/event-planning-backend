@@ -15,7 +15,7 @@ export class GuestEntity {
     @Column()
     public lastName: boolean;
 
-    @Column({nullable: true, default: Date.now()})
+    @Column({nullable: true})
     public responseDate: Date;
 
     @ManyToOne(() => FamilyEntity)

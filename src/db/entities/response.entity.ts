@@ -16,7 +16,7 @@ export class ResponseEntity {
     @Column({nullable: true})
     public response: boolean;
 
-    @Column({nullable: true, default: Date.now()})
+    @Column({nullable: true})
     public responseDate: Date;
 
     @Column({nullable: true})

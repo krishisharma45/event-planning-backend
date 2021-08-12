@@ -7,7 +7,7 @@ import {TypeOrmModule} from "@nestjs/typeorm";
       name: "DATABASE_CONNECTION",
       type: 'postgres',
       host: 'localhost',
-      port: 56000,
+      port: 56001,
       username: 'postgres',
       password: 'password',
       database: 'postgres',
