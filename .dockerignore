@@ -1,0 +1,4 @@
+docker-compose.yml
+queries/*
+README.md
+test/*
